@@ -1,0 +1,7 @@
+ALGORITMO Ejercicio_13_Utilidades
+Definir ganancia_total, pago_socio Como Real
+Escribir "Ingrese la ganancia total:"
+Leer ganancia_total
+pago_socio <- ganancia_total / 3
+Escribir "A cada socio le corresponde: ", pago_socio
+FIN ALGORITMO
