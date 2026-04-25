@@ -1,0 +1,7 @@
+Algoritmo DescuentoTienda
+    Definir total_compra, pagar Como Real
+    Escribir "Introduce el total de la compra:"
+    Leer total_compra
+    pagar <- total_compra - (total_compra * 0.15)
+    Escribir "El total a pagar con el descuento del 15% es: ", pagar
+FinAlgoritmo
