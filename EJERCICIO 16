@@ -1,0 +1,8 @@
+ALGORITMO Ejercicio_16_Acceso
+Definir edad Como Entero
+Escribir "Ingrese la edad del usuario:"
+Leer edad
+SI edad >= 18 ENTONCES
+    Escribir "Bienvenido al laboratorio de robótica"
+FIN SI
+FIN ALGORITMO
