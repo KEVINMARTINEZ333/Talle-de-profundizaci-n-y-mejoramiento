@@ -1,0 +1,16 @@
+Algoritmo CalificacionFinal
+    Definir p1, p2, p3, examen, trabajo, nota_final Como Real
+    Escribir "Introduce la calificación del parcial 1:"
+    Leer p1
+    Escribir "Introduce la calificación del parcial 2:"
+    Leer p2
+    Escribir "Introduce la calificación del parcial 3:"
+    Leer p3
+    Escribir "Introduce la calificación del examen final:"
+    Leer examen
+    Escribir "Introduce la calificación del trabajo final:"
+    Leer trabajo
+    
+    nota_final <- (((p1 + p2 + p3) / 3) * 0.55) + (examen * 0.30) + (trabajo * 0.15)
+    Escribir "La calificación final es: ", nota_final
+FinAlgoritmo
