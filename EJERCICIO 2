@@ -1,0 +1,9 @@
+ALGORITMO Ejercicio_2_ConversionMoneda
+Definir dolares, trm, pesos Como Real
+Escribir "Ingrese la cantidad en Dólares:"
+Leer dolares
+Escribir "Ingrese el valor de la TRM del día:"
+Leer trm
+pesos <- dolares * trm
+Escribir "El equivalente en Pesos Colombianos es: ", pesos
+FIN ALGORITMO
