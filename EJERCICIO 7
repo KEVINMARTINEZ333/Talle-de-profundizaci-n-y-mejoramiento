@@ -1,0 +1,8 @@
+Algoritmo MinutosAHoras
+    Definir min_totales, horas, minutos Como Entero
+    Escribir "Introduce la cantidad de minutos totales:"
+    Leer min_totales
+    horas <- trunc(min_totales / 60)
+    minutos <- min_totales MOD 60
+    Escribir min_totales, " minutos son ", horas, " horas y ", minutos, " minutos."
+FinAlgoritmo
