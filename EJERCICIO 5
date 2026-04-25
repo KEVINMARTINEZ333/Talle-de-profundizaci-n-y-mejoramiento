@@ -1,7 +1,0 @@
-Algoritmo ConvertirTemperatura
-    Definir fahrenheit, celsius Como Real
-    Escribir "Introduce los grados Fahrenheit:"
-    Leer fahrenheit
-    celsius <- (fahrenheit - 32) * 5 / 9
-    Escribir "Los grados Celsius son: ", celsius
-FinAlgoritmo
