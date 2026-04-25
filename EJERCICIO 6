@@ -1,0 +1,8 @@
+ALGORITMO Ejercicio_6_Finanzas
+Definir ahorro, bono, total Como Real
+Escribir "Ingrese la cantidad de dinero a ahorrar:"
+Leer ahorro
+bono <- ahorro * 0.15
+total <- ahorro + bono
+Escribir "El total de dinero (ahorro + bono del 15%) es: ", total
+FIN ALGORITMO
